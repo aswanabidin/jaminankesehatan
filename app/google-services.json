@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1088735148307",
+    "firebase_url": "https://sisfotubes.firebaseio.com",
+    "project_id": "sisfotubes",
+    "storage_bucket": "sisfotubes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088735148307:android:c4f62c48fd563bae",
+        "android_client_info": {
+          "package_name": "com.example.aswanabidin.tubessisfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088735148307-s95epa4qk8cfhrev3h9q0eb02korgtfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aswanabidin.tubessisfo",
+            "certificate_hash": "b3a63a81d5940949eef09fc256008b81b294bead"
+          }
+        },
+        {
+          "client_id": "1088735148307-6qv5r0ufshde83iulel9vpav70endnl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3uoZnh0hbSHz2GilqLyKwuobkXiZliOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088735148307-6qv5r0ufshde83iulel9vpav70endnl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

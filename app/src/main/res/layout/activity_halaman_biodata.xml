@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.aswanabidin.tubessisfo.HalamanBiodata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Pendaftaran Anggota Jaminan Kesehatan"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorWhite"
+            android:textSize="21dp" />
+
+        <EditText
+            android:id="@+id/edTextNomorKartuKeluarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rounded_corners"
+            android:hint="Nomor Kartu Keluarga"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextNomorRekening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:hint="Nomor Rekening"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextNamaLengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif"
+            android:hint="Nama Lengkap"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextTempatLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif"
+            android:hint="Tempat Lahir"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextTanggalLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif"
+            android:hint="Tanggal Lahir"
+            android:inputType="date"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextAlamatRumah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif"
+            android:hint="Alamat Rumah"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:dropDownSelector="@color/colorWhite"
+            android:fontFamily="sans-serif"
+            android:hint="Jenis Kelamin"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextStatusPernikahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif"
+            android:hint="Status Pernikahan"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextNomorTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif"
+            android:hint="Nomor Telepon"
+            android:inputType="phone"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/edTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif"
+            android:hint="Alamat Email"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+
+        <EditText
+            android:id="@+id/edTextFasilitasKesehatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif"
+            android:hint="Fasilitas Kesehatan"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/LightGreen"
+            android:textSize="13dp" />
+
+        <Button
+
+            android:id="@+id/btnDaftarAnggota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_rounded_corners"
+            android:text="Daftar Anggota" />
+
+    </LinearLayout>
+
+
+</ScrollView>

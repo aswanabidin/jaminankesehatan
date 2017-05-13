@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aswanabidin.tubessisfo.DetailView">
+
+    <ImageView
+        android:id="@+id/gambarbuah"
+        android:layout_width="500dp"
+        android:layout_height="270dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:foregroundGravity="center_vertical"
+        android:src="@drawable/gambarbuah" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambarbuah"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Porsi Tepat Nutrisi Tubuh"
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Agar dapat berfungi optimal, tubuh memerlukan nutrisi lengkap. Makanan merupakan pemasok nutrisi bagi tubuh. Berdasarkan fungsinya, makanan dapat dikelompokkan menjadi karbohidrat, proyein, lemak, vitamin, mineral, dan serta. Terlalu banyak makan dengan nutrisi tidak tepat dapat membuat berat badan berlebihan dan menyebabkan berbagai penyakit."
+        android:textAlignment="gravity"
+        android:textColor="@color/Black" />
+
+</RelativeLayout>
